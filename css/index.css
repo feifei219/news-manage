@@ -1,0 +1,149 @@
+body,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,hr,p,pre,form,button, input, textarea,th,td{
+    margin:0;
+    padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:active,a:hover {
+  outline: 0;
+}
+input:focus{
+    outline: 0;
+}
+body{
+    font-family: "微软雅黑";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    padding:0 20px;
+    line-height: 60px;
+    height: 60px;
+    background: #272822;
+    color:#fff;
+}
+header h2{
+    font-weight: normal;
+}
+header h2 a{
+    color:#fff;
+}
+section{
+    height: calc(100% - 60px); 
+    margin-left: 200px;
+}
+.left{
+    box-sizing: border-box;
+    width: 200px;
+    height: 100%;
+    margin-left: -200px;
+    background: #595959;
+    float: left;
+}
+.left li{
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    border-bottom:1px solid rgba(224,224,224,.1);
+}
+.left li a{
+    color:#fff;
+}
+.left li:hover,.left li.active{
+    background:#008BF4; 
+}
+.right{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    float: right;
+    background: #fefefe;
+}
+
+/*list*/
+.list-box{
+    width:90%;
+    margin:0 auto;
+}
+.list-box li{
+    padding:10px 0px;
+    border-bottom:1px solid #eee;
+}
+.list-box h3{
+    font-weight:normal;
+    line-height:45px;
+}
+.list-box h3 span{
+    float:right;
+    font-size:14px;
+}
+.list-box a{
+    color:#444;
+}
+.list-box p{
+    font-size:14px;
+    color:#999;
+}
+/*show*/
+article{
+    width:90%;
+    margin:0 auto;
+    padding:20px 0;
+}
+article h3{
+    font-weight:normal;
+    line-height:45px;
+}
+article p{
+    font-size:14px;
+    color:#999;
+    line-height:1.5;
+}
+
+/*add*/
+
+.input{
+    width:90%;
+    margin:30px auto;
+}
+.input label{
+    width:70px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+}
+.input input[type=text]{
+    width:500px;
+    height:40px;
+}
+.content{
+    margin:30px 0;
+    
+}
+.content label{
+    vertical-align:middle;
+}
+.content textarea{
+    vertical-align:middle;
+}
+.input input[type=button]{
+    width:120px;
+    height:40px;
+    outline:0;
+    border:0;
+    color:#fff;
+    background-color:#008BF4;
+    margin-left:70px;
+    padding:0;
+}
+.input input[type=button]:active{
+    opacity:.5;
+}

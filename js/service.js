@@ -1,0 +1,9 @@
+var service=angular.module("service",[]);
+// service.factory('getLiatDate',function($http){
+//     $http({
+//         method:'get',
+//         url:'data/data.json'
+//     }).then(function(res){
+//         $scope.list=res.data;
+//     })
+// })
